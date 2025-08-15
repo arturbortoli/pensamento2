@@ -6,83 +6,76 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <title>Em busca da cidade perdida</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <title>A Missão do Cristal Primordial</title>
 </head>
 <body>
     <main>
         <div class="passo ativo" id="passo-0">
-            <img src="img/cenario-passo0.png" alt="">
-            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre uma cidade perdida, escondida por riquezas e belezas naturais. Nessa carta, a autora deixa algumas pistas para encontrar essa cidade e eu decidi segui-las!</p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
+            <img src="img/cenario-passo0.png" alt="Nave espacial no espaço profundo">
+            <p>Em meio a vastidão do espaço, uma lenda circula entre os exploradores: um asteroide perdido, escondido na nebulosa de Órion, que abriga o Cristal Primordial, uma fonte de energia inigualável. Decidi embarcar nesta aventura para encontrá-lo!</p>
+            <button class="btn-proximo" data-proximo="1">Navegar pela Rota de Eridanus</button>
+            <button class="btn-proximo" data-proximo="2">Ir direto para a Nebulosa de Órion</button>
         </div>
         <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            <p>Você decide seguir a Rota de Eridanus, um caminho seguro, mas que exige uma parada na estação espacial Kepler-186 para reabastecer e pegar uma pista.</p>
+            <button class="btn-proximo" data-proximo="3">Pousar na Estação Kepler-186</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar a parada e seguir em frente</button>
         </div>
         <div class="passo" id="passo-2">
-            <p>Em Pernambuco, você visita a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
-            <button class="btn-proximo" data-proximo="5">Investigar as igrejas antigas</button>
-            <button class="btn-proximo" data-proximo="6">Explorar as praias próximas</button>
+            <p>Você arrisca ir direto para a nebulosa, mas a densa poeira cósmica prejudica seus sensores. Para onde você vai?</p>
+            <button class="btn-proximo" data-proximo="5">Ativar os sensores de pulso gravitacional</button>
+            <button class="btn-proximo" data-proximo="6">Tentar a rota manual</button>
         </div>
         <div class="passo" id="passo-3">
-            <p>No topo do Pico da Tijuca, você encontra uma antiga inscrição apontando que a próxima pista está
-                localizada no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>Na Estação Kepler-186, você encontra um antigo mapa estelar codificado em um terminal de dados que indica que a próxima pista está na Nebulosa de Órion.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a Nebulosa de Órion</button>
         </div>
 
         <div class="passo" id="passo-4">
-            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
-            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
-                encontrado.</p>
+            <img src="img/cenario-passo4-abandonar-missao.png" alt="Nave espacial abandonando a missão">
+            <p>Sem reabastecer, sua nave fica sem energia no meio do caminho. Você é obrigado a ativar o sinal de socorro e abandonar a missão.</p>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>Nas igrejas de Olinda, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
-                pista está no Amazonas.</p>
-            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+            <p>O pulso gravitacional revela a localização de uma antiga estação de mineração desativada dentro da nebulosa. A pista para o cristal deve estar lá!</p>
+            <button class="btn-proximo" data-proximo="7">Explorar a estação abandonada</button>
         </div>
 
         <div class="passo" id="passo-6">
-            <p>Explorando as praias, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar e explorar as igrejas</button>
+            <p>Você tenta navegar manualmente, mas a falta de visibilidade causa um desvio em sua rota. Você se perde e precisa voltar para o começo da jornada.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar ao início</button>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>No Amazonas, a busca pela cidade perdida se intensifica. Você se depara com um rio bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+            <p>Ao se aproximar do asteroide, você se depara com um campo de asteroides. Você precisa escolher a rota para se infiltrar:</p>
+            <button class="btn-proximo" data-proximo="9">Entrar pelo campo de asteroides denso</button>
+            <button class="btn-proximo" data-proximo="10">Entrar pela rota menos densa</button>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+            <p>Você decide retornar e seguir a rota correta. Agora, de volta à Rota de Eridanus para a estação Kepler-186!</p>
+            <button class="btn-proximo" data-proximo="1">Seguir para a Estação Kepler-186</button>
         </div>
 
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
-                cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Navegar pelo campo denso leva você a uma caverna de gelo escondida no asteroide, onde o Cristal Primordial está pulsando com energia.</p>
+            <button class="btn-proximo" data-proximo="11">Coletar o Cristal Primordial</button>
         </div>
 
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
-                aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+            <p>A rota menos densa parece segura, mas leva a uma área de detritos sem saída. Você precisa voltar para tentar a outra rota.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar a outra rota</button>
         </div>
 
         <div class="passo" id="passo-11">
-            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
-                este lugar</p>
+            <img src="img/cenario-passo11-cristal.png" alt="O Cristal Primordial encontrado">
+            <p>Você coletou o Cristal Primordial! Sua descoberta muda para sempre a tecnologia de energia da galáxia. Sua lenda como um dos maiores exploradores está garantida.</p>
         </div>
 
         <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
-                que levam à cidade perdida.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+            <p>Você retorna e escolhe o caminho correto através do campo denso. Agora, é hora de entrar na caverna de gelo.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar na caverna e coletar o cristal</button>
         </div>
     </main>
     <script src="script.js"></script>
